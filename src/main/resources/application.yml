@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: barber-shop-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/barber_shop_ui
+    username: root
+    password: chosen1
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
