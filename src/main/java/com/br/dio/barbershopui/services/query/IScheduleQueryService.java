@@ -1,4 +1,4 @@
-package com.br.dio.barbershopui.query;
+package com.br.dio.barbershopui.services.query;
 
 import com.br.dio.barbershopui.entity.ScheduleEntity;
 
@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface IScheduleQueryService {
 
-    ScheduleEntity findbyId(final long id);
+    ScheduleEntity findById(final long id);
 
     List<ScheduleEntity> findInMonth(final OffsetDateTime startAt, final OffsetDateTime endAt);
 

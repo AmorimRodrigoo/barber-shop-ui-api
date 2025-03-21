@@ -1,4 +1,4 @@
-package com.br.dio.barbershopui.query;
+package com.br.dio.barbershopui.services.query;
 
 import com.br.dio.barbershopui.entity.ClientEntity;
 
